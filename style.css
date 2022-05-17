@@ -10,3 +10,17 @@ body > .container {
     height: 30vh;   
     object-fit: contain; 
 } 
+
+@media screen and (max-width: 1024px) {   
+    .logo {     
+        width: 20rem;    
+        margin-right: 2rem;   
+    } 
+} 
+
+@media screen and (min-width: 1024px) {   
+    .logo {         
+        width: 10rem;     
+        margin-right: 2rem;   
+    } 
+} 
